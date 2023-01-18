@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["import { CamelCasedPropertiesDeep } from \"type-fest\";\r\n\r\nexport const fakeToCamelCase = <T extends object>(obj: T) => {\r\n  return obj as CamelCasedPropertiesDeep<T>;\r\n};\r\n"],"names":[],"mappings":"AAEa,MAAA,eAAe,GAAG,CAAmB,GAAM,KAAI;AAC1D,IAAA,OAAO,GAAkC,CAAC;AAC5C;;;;"}
